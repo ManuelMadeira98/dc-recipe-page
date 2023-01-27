@@ -1,0 +1,77 @@
+h1,
+h2,
+h3 {
+	font-family: var(--ff-accent);
+	color: var(--clr-primary-800);
+}
+
+.recipe {
+	padding: 2rem .75rem;
+
+	&__header {
+		&__title {
+			font-size: 1.5rem;
+			color: var(--clr-primary-900);
+		}
+
+		&__description {
+            font-size: .75rem;
+			font-weight: var(--font-medium);
+			font-style: italic;
+			color: var(--clr-neutral-300);
+			margin-top: .75rem;
+		}
+
+		&__image {
+			margin-top: 1.5rem;
+		}
+	}
+
+	&__ingredients {
+		margin-top: 1.875rem;
+
+		& > h2 {
+			font-size: 1.125rem;
+		}
+	}
+
+	&__ingredient {
+		&__title {
+			font-family: var(--ff-accent);
+			font-style: italic;
+			font-size: 1rem;
+			color: var(--clr-primary-800);
+		}
+
+		&:first-of-type > &__title {
+			margin-top: .8125rem;
+		}
+
+		&:last-of-type {
+			margin-top: 2.4375rem;
+		}
+		
+		&__checklist {
+			margin-top: 1.5rem;
+
+			& > mat-checkbox {
+				display: block;
+				color: var(--clr-primary-800);
+				font-weight: var(--font-regular);
+				font-size: .875rem;
+				line-height: 1.5625rem;
+			}
+		}
+	}
+
+	/* &__instructions {
+
+		&__title {
+			font-size: 1.125rem;
+		}
+
+		&__subtitle {
+			font-family: var(--ff-accent);
+		}
+	} */
+}
