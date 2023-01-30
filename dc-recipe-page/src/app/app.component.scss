@@ -61,17 +61,44 @@ h3 {
 				font-size: .875rem;
 				line-height: 1.5625rem;
 			}
+
+			.toppings {
+				font-weight: var(--font-medium);
+				font-style: italic;
+			}
 		}
 	}
 
-	/* &__instructions {
+	&__instructions {
+		margin-top: 1.875rem;
 
 		&__title {
-			font-size: 1.125rem;
+			font-size: 1.5rem;
+			font-weight: var(--font-bold);
+		}
+	}
+
+	&__instruction {
+		display: flex;
+		gap: .9375rem;
+		margin-top: 1.875rem;
+
+		&__number {
+			width: 2.25rem;
+			height: 2.25rem;
+			border-radius: .375rem;
+			background-color: var(--clr-neutral-400);
+
+			color: var(--clr-neutral-100);
+			font-size: 1.5rem;
+			// font-family: var(--ff-accent);
+			font-weight: var(--font-bold);
+			text-align: center;
 		}
 
-		&__subtitle {
-			font-family: var(--ff-accent);
+		&__description {
+			line-height: 150%;
+			flex: 1;
 		}
-	} */
+	}
 }
