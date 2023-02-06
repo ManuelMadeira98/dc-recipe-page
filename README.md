@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">Recipe Page</h1>
 
 <div align="center">
@@ -8,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://manuel-dc-recipe-page.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -21,6 +19,14 @@
     </a>
   </h3>
 </div>
+
+## Mobile
+
+![Mobile screenshot](./design/mobile.png)
+
+## Desktop
+
+![Desktop screenshot](./design/desktop.png)
 
 # DcRecipePage
 
